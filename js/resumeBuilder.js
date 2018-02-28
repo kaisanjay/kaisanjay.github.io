@@ -99,7 +99,21 @@ $("#topContacts").prepend(HTMLgithub.replace("%data%", bio.contacts.github));
 $("#topContacts").prepend(HTMLemail.replace("%data%", bio.contacts.email));
 $("#topContacts").prepend(HTMLmobile.replace("%data%", bio.contacts.mobile));
 
+//footer
+var formattedContactMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
+$("#footerContacts").append(formattedContactMobile);
 
+var formattedContactEmail = HTMLemail.replace("%data%", bio.contacts.email);
+$("#footerContacts").append(formattedContactEmail);
+
+var formattedContactGithub = HTMLgithub.replace("%data%", bio.contacts.github);
+$("#footerContacts").append( formattedContactGithub );
+
+var formattedContactTwitter = HTMLtwitter.replace("%data%", bio.contacts.twitter);
+$("#footerContacts").append(formattedContactTwitter );
+
+var formattedContactLocation = HTMLlocation.replace("%data%", bio.contacts.location);
+$("#footerContacts").append(formattedContactLocation);
 
 
 
