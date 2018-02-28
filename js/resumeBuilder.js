@@ -60,7 +60,7 @@ var projects = {
 		{
 		"title": "Project 1 : Web Crawler ",
 		"dates": "2017",
-		"description": "built a Web-Crawler by using Python",
+		"description": "Built a Web-Crawler by using Python",
 		/*"images": [
 			"http...",
 			"http   "
@@ -68,7 +68,7 @@ var projects = {
 	},{
 		"title": "Project 2 : Online Portfolio ",
 		"dates": "2017",
-		"description": "built this online portfolio by using HTML,CSS and JavaScript",
+		"description": "Built this online portfolio by using HTML,CSS and JavaScript",
 		/*"images": [
 			"http...",
 			"http   "
